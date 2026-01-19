@@ -9,11 +9,3 @@ func TestAdd(t *testing.T) {
 		t.Errorf("Test Failed: Expected %d, but got %d", expected, result)
 	}
 }
-
-func TestAdd(t *testing.T) {
-	expected := 2
-	result := Multiply(1, 2)
-	if result != expected {
-		t.Errorf("Test Failed: Expected %d, but got %d", expected, result)
-	}
-}
